@@ -1,0 +1,134 @@
+body { 
+    background-color: #f8f9fa; 
+    font-size: 0.9rem;
+}
+
+.sidebar { 
+    background-color: #f4f5f7; 
+    min-height: 100vh; 
+    border-right: 1px solid #e0e0e0; 
+}
+
+.sidebar-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.sidebar-list a {
+    color: #555;
+}
+
+.sidebar-list a:hover {
+    color: #000;
+}
+
+.sort-btn { 
+    text-align: left; 
+    padding-left: 0; 
+    color: #555; 
+}
+
+.sort-btn:hover { 
+    color: #000; 
+}
+
+.product-card { 
+    border-radius: 10px; 
+    border: 1px solid #eaeaea; 
+    transition: transform 0.2s, box-shadow 0.2s; 
+    background: #fff; 
+    position: relative;
+    overflow: hidden;
+}
+
+.product-card:hover { 
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05); 
+}
+
+.bullseye-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #ffc107; 
+    font-size: 1.2rem;
+    z-index: 10;
+}
+
+.discount-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #d9534f;
+    color: white;
+    padding: 4px 8px;
+    font-weight: bold;
+    font-size: 0.75rem;
+    border-radius: 4px;
+    z-index: 10;
+}
+
+.product-img-wrapper { 
+    height: 180px; 
+    padding: 20px 20px 10px; 
+    text-align: center; 
+    cursor: pointer; 
+}
+
+.product-img-wrapper img { 
+    max-height: 100%; 
+    max-width: 100%; 
+    object-fit: contain; 
+}
+
+.product-details {
+    padding: 15px;
+    border-top: 1px solid #eaeaea;
+}
+
+.product-title-detail {
+    font-size: 0.9rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.product-brand-detail {
+    font-size: 0.8rem;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.price-text-magenta { 
+    color: #c0005a;
+    font-weight: 700; 
+    font-size: 1.2rem; 
+}
+
+.btn-cart-add-blue { 
+    background-color: #3b82f6;
+    color: white; 
+    border-radius: 50%; 
+    width: 45px; 
+    height: 45px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    border: none; 
+    transition: background 0.2s;
+}
+
+.btn-cart-add-blue:hover { 
+    background-color: #2563eb; 
+    color: white; 
+}
+
+.sidebar .btn-light {
+    background: #e1e3e8;
+    border: 1px solid #ccc;
+    color: #555;
+}
+
+.sidebar .btn-light:hover {
+    background: #ccc;
+    color: #000;
+}
